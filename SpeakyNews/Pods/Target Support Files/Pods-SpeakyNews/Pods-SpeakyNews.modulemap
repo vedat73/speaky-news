@@ -1,0 +1,6 @@
+module Pods_SpeakyNews {
+  umbrella header "Pods-SpeakyNews-umbrella.h"
+
+  export *
+  module * { export * }
+}

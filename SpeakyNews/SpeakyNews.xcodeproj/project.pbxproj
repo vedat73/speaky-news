@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70BB3F23F55A359BCF9050AB /* libPods-SpeakyNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D5CEDAD88F03AA088014E /* libPods-SpeakyNews.a */; };
 		BE022345288BD12C005719DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE022344288BD12C005719DD /* AppDelegate.swift */; };
 		BE022347288BD12C005719DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE022346288BD12C005719DD /* SceneDelegate.swift */; };
 		BE022349288BD12C005719DD /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE022348288BD12C005719DD /* HomePageVC.swift */; };
@@ -22,7 +23,14 @@
 		BE022389288C38A3005719DD /* NewsAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE022388288C38A3005719DD /* NewsAPIManager.swift */; };
 		BE02238B288C395D005719DD /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02238A288C395D005719DD /* NewsData.swift */; };
 		BE02238D288C4308005719DD /* HomePageNewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02238C288C4308005719DD /* HomePageNewsData.swift */; };
+		BE55C5DB28A9EAFB008F719A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55C5DA28A9EAFB008F719A /* DetailViewModel.swift */; };
+		BE55C5DD28A9ECBA008F719A /* DetailPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55C5DC28A9ECBA008F719A /* DetailPageData.swift */; };
+		BE59BE8928A97F30009BA556 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE59BE8828A97F30009BA556 /* DetailVC.swift */; };
 		BE6476EF288DDFC300958AF3 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6476EE288DDFC300958AF3 /* NewsCollectionViewCell.swift */; };
+		BE678F86288F1939005156E0 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE678F85288F1939005156E0 /* HomePageViewModel.swift */; };
+		BE8B6ECE28B47C1A00C46FE5 /* VoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B6ECD28B47C1A00C46FE5 /* VoiceOver.swift */; };
+		BEAAD7DC28B2C8900003CE19 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAD7DB28B2C8900003CE19 /* DateManager.swift */; };
+		BEAAD7DD28B2C8900003CE19 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAD7DB28B2C8900003CE19 /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B563C0DA5D5CF55A01811DCA /* Pods-SpeakyNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakyNews.debug.xcconfig"; path = "Target Support Files/Pods-SpeakyNews/Pods-SpeakyNews.debug.xcconfig"; sourceTree = "<group>"; };
 		BE022341288BD12C005719DD /* SpeakyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE022344288BD12C005719DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE022346288BD12C005719DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +71,15 @@
 		BE022388288C38A3005719DD /* NewsAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIManager.swift; sourceTree = "<group>"; };
 		BE02238A288C395D005719DD /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 		BE02238C288C4308005719DD /* HomePageNewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageNewsData.swift; sourceTree = "<group>"; };
+		BE55C5DA28A9EAFB008F719A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		BE55C5DC28A9ECBA008F719A /* DetailPageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageData.swift; sourceTree = "<group>"; };
+		BE59BE8828A97F30009BA556 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		BE6476EE288DDFC300958AF3 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE678F85288F1939005156E0 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		BE8B6ECD28B47C1A00C46FE5 /* VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver.swift; sourceTree = "<group>"; };
+		BEAAD7DB28B2C8900003CE19 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		DC0D5CEDAD88F03AA088014E /* libPods-SpeakyNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpeakyNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5277E8B2B9B1FE1E9120D60 /* Pods-SpeakyNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakyNews.release.xcconfig"; path = "Target Support Files/Pods-SpeakyNews/Pods-SpeakyNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70BB3F23F55A359BCF9050AB /* libPods-SpeakyNews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E92C0F34FEC9D8248F3D5C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B563C0DA5D5CF55A01811DCA /* Pods-SpeakyNews.debug.xcconfig */,
+				F5277E8B2B9B1FE1E9120D60 /* Pods-SpeakyNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BE022338288BD12C005719DD = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +124,8 @@
 				BE02235A288BD12E005719DD /* SpeakyNewsTests */,
 				BE022364288BD12E005719DD /* SpeakyNewsUITests */,
 				BE022342288BD12C005719DD /* Products */,
+				1E92C0F34FEC9D8248F3D5C1 /* Pods */,
+				C575D996E349D67821422759 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +212,7 @@
 		BE022378288BD213005719DD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BE678F85288F1939005156E0 /* HomePageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -200,6 +230,7 @@
 		BE02237A288BD2D6005719DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BE55C5DC28A9ECBA008F719A /* DetailPageData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,6 +238,7 @@
 		BE02237B288BD2DA005719DD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE59BE8828A97F30009BA556 /* DetailVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +246,7 @@
 		BE02237C288BD2E1005719DD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BE55C5DA28A9EAFB008F719A /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -231,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				BE022384288C3582005719DD /* JsonParser.swift */,
+				BEAAD7DB28B2C8900003CE19 /* DateManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -240,8 +274,17 @@
 			children = (
 				BE022380288BD350005719DD /* Constants.swift */,
 				BE022386288C37FB005719DD /* ErrorHandling.swift */,
+				BE8B6ECD28B47C1A00C46FE5 /* VoiceOver.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		C575D996E349D67821422759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D5CEDAD88F03AA088014E /* libPods-SpeakyNews.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE02236B288BD12E005719DD /* Build configuration list for PBXNativeTarget "SpeakyNews" */;
 			buildPhases = (
+				C8E9BF9CCED3B30C48ED6869 /* [CP] Check Pods Manifest.lock */,
 				BE02233D288BD12C005719DD /* Sources */,
 				BE02233E288BD12C005719DD /* Frameworks */,
 				BE02233F288BD12C005719DD /* Resources */,
@@ -369,6 +413,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8E9BF9CCED3B30C48ED6869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeakyNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE02233D288BD12C005719DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -376,12 +445,18 @@
 			files = (
 				BE022349288BD12C005719DD /* HomePageVC.swift in Sources */,
 				BE022389288C38A3005719DD /* NewsAPIManager.swift in Sources */,
+				BE59BE8928A97F30009BA556 /* DetailVC.swift in Sources */,
+				BE55C5DD28A9ECBA008F719A /* DetailPageData.swift in Sources */,
 				BE022345288BD12C005719DD /* AppDelegate.swift in Sources */,
 				BE6476EF288DDFC300958AF3 /* NewsCollectionViewCell.swift in Sources */,
 				BE022387288C37FB005719DD /* ErrorHandling.swift in Sources */,
 				BE022385288C3582005719DD /* JsonParser.swift in Sources */,
+				BEAAD7DC28B2C8900003CE19 /* DateManager.swift in Sources */,
 				BE022383288BD77A005719DD /* NetworkManager.swift in Sources */,
 				BE02238D288C4308005719DD /* HomePageNewsData.swift in Sources */,
+				BE55C5DB28A9EAFB008F719A /* DetailViewModel.swift in Sources */,
+				BE8B6ECE28B47C1A00C46FE5 /* VoiceOver.swift in Sources */,
+				BE678F86288F1939005156E0 /* HomePageViewModel.swift in Sources */,
 				BE022347288BD12C005719DD /* SceneDelegate.swift in Sources */,
 				BE022381288BD350005719DD /* Constants.swift in Sources */,
 				BE02238B288C395D005719DD /* NewsData.swift in Sources */,
@@ -393,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE02235C288BD12E005719DD /* SpeakyNewsTests.swift in Sources */,
+				BEAAD7DD28B2C8900003CE19 /* DateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +624,7 @@
 		};
 		BE02236C288BD12E005719DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B563C0DA5D5CF55A01811DCA /* Pods-SpeakyNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -575,6 +652,7 @@
 		};
 		BE02236D288BD12E005719DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5277E8B2B9B1FE1E9120D60 /* Pods-SpeakyNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

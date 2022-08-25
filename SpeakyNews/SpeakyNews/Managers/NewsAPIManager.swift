@@ -8,12 +8,12 @@
 import Foundation
 
 class NewsAPIManager {
-    
-    private let apiURL = baseURL + "fq=tech&facet_field=day_of_week&facet=true&begin_date=20120101&end_date=20120101&api-key=" + APIKey
-    
+
+    private var apiURL = baseURL
     private var imageCache = NSCache<NSString, NSData>()
     
-    func fetchNewsJsonData(completion : @escaping (NewsData?)->(Void)){
+    func fetchNewsJsonData(pageNumber : Int = 1,completion : @escaping (NewsData?)->(Void)){
+        self.apiURL = baseURL + "q=tech&page=" + String(pageNumber) + "&sort=newest&api-key=" + APIKey
         NetworkManager.shared.urlPath = self.apiURL
         NetworkManager.shared.fetchData { data, response, error in
             if let error = error {
@@ -38,7 +38,7 @@ class NewsAPIManager {
     func downloadImage(imgUrl : String,completion : @escaping (Data?, Error?)-> (Void)){
         
         if let imageData = self.imageCache.object(forKey: imgUrl as NSString) {
-            print("cached img is used")
+            // print("cached img is used")
             completion(imageData as Data,nil)
             return
         }

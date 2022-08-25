@@ -6,7 +6,7 @@
 //
 
 struct HeadLine : Codable {
-    var print_headline : String?
+    var main : String?
 }
 
 struct MultiMedia : Codable {
@@ -15,6 +15,7 @@ struct MultiMedia : Codable {
 }
 
 struct Docs : Codable {
+    var uri : String?
     var abstract : String?
     var snippet : String?
     var lead_paragraph : String?

@@ -4,7 +4,10 @@
 //
 //  Created by Vedat Ozlu on 23.07.2022.
 //
+/**
+ 
+ */
 
-let APIKey = "XdLZ7AdQpBWfnZyFAsS38LC7vB2K3Tq5" // put your api key here
+let APIKey = "" // put your api key that is given by nyt api
 let baseURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?"
 let baseImgURL = "https://www.nytimes.com/"
